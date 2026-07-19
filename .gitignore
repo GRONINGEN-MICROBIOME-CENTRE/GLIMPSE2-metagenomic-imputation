@@ -1,0 +1,30 @@
+# Real configuration — contains cluster-specific paths, never commit
+config/config.sh
+
+# Pipeline outputs / data (never belongs in the repo)
+output/
+data/
+*.bam
+*.bai
+*.cram
+*.vcf.gz
+*.vcf.gz.tbi
+*.bcf
+*.bcf.csi
+*.fastq.gz
+*.bed
+*.bim
+*.fam
+*.pgen
+*.psam
+*.pvar
+
+# Logs
+logs/
+*.log
+slurm-*.out
+
+# Misc
+.DS_Store
+*.swp
+__pycache__/
