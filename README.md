@@ -1,4 +1,4 @@
-# GLIMPSE2-metagenomic-imputation
+# GLIMPSE2 Genotype Imputation for Metagenomic Samples (Low Path WGS data Extracted from Metagenomic Samples)
 
 A SLURM-based pipeline for imputing human host genotypes from low-coverage
 shotgun metagenomic sequencing data (e.g. oral or vaginal microbiome
